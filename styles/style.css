@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Helper classes */
+.flex{
+    display: flex;
+}
+.inline{
+    display: inline;
+}
+.margin-2{
+    margin: 2%;
+}
+.invert{
+    filter: invert(100%);
+}
+.border-r{
+    padding-right: 7px;
+    border-right: 1px solid white;
+}
+.op-6{
+    opacity: 0.6;
+}
+.op-9{
+    opacity: 0.9;
+}
+.filter-inputs{
+    padding: 12px 15px 12px 15px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 grey;
+}
+
+/* Subheader Styles */
+
+
+#subheader{
+    color: white;
+    background-color: black;
+    padding: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#subheader>img{
+    padding: 3%;
+}
+#description{
+    width: 550px;
+    margin: 2%;
+}
+#description-heading{
+    margin: 3% 0 3% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.description-address{
+    margin: 2% 0 2% 0;
+}
+/* #description-values{
+    display: flex;
+} */
+#description-rating>svg{
+    fill: white;
+    height: 12px;
+}
+#offer-heading{
+    background-color: black;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+#offer-section{
+    width: 58%;
+    padding: 5% 10% 5% 10%;
+    border: 2px solid white;
+}
+#offer-section>*{
+    margin: 2%;
+}
+
+
+
+#filter-section{
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: -15px;
+}
+
+#dish-search>input{
+    border: none;
+    padding: 10px;
+    padding-left: 0;
+    background-color: white;
+    font-size: 15px;
+}
+#dish-search>input:focus{
+    outline: none;
+}
+input[type="checkbox"]{
+    outline: black;
+    cursor: pointer;
+}
+#veg-only:hover{
+    color: green;
+    cursor: pointer;
+}
+#favourite-filter:hover{
+    color: red;
+    cursor: pointer;
+}
