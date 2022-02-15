@@ -4,7 +4,6 @@
 }
 
 
-/* Helper classes */
 .flex{
     display: flex;
 }
@@ -34,7 +33,6 @@
     box-shadow: 0 2px 2px 0 grey;
 }
 
-/* Subheader Styles */
 
 
 #subheader{
@@ -60,9 +58,7 @@
 .description-address{
     margin: 2% 0 2% 0;
 }
-/* #description-values{
-    display: flex;
-} */
+
 #description-rating>svg{
     fill: white;
     height: 12px;
