@@ -7,7 +7,6 @@
 }
 
 
-/* Helper classes */
 .flex{
     display: flex;
 }
@@ -35,7 +34,6 @@
 }
 
 
-/* Food description styles */
 
 #food-description{
     justify-content:center ;
@@ -75,7 +73,6 @@
 .food-list-item{
     padding: 30px;
     padding-left: 10px;
-    /* border-bottom: 1px solid rgb(218, 214, 214); */
 }
 
 .flex-space-between{
