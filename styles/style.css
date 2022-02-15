@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-/* Header styles */
 
 #nav{
     width: 100vw;
@@ -38,13 +37,6 @@
     color: #ff0000;
     cursor: pointer;
 }
-
-/* .control_options>svg{
-    height: 18px;
-} */
-/* .control_options:hover>svg{
-    fill: red;
-} */
 
 .control_options>img{
     height: 18px;
@@ -82,7 +74,6 @@
 }
 
 
-/* Helper classes */
 
 .inline{
     display: inline;
