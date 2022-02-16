@@ -78,12 +78,6 @@
 
 
 
-.inline{
-    display: inline;
-}
-
-
-
 .flex{
     display: flex;
 }
@@ -216,7 +210,7 @@ input[type="checkbox"]{
 }
 #food-list{
     width: 600px;
-    height: 1000px;
+    height: 620px;
     overflow-y: auto;
 }
 #food-list>h2{
