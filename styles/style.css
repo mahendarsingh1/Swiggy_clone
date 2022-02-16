@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Arial, sans-serif;
+    --food-list-button-color : green;
+    --food-list-button-hover-color : red;
 }
 
 
@@ -78,6 +81,9 @@
 .inline{
     display: inline;
 }
+
+
+
 .flex{
     display: flex;
 }
@@ -105,6 +111,9 @@
     margin: 10px;
     background-color: white;
     box-shadow: 0 2px 2px 0 grey;
+}
+.margin-tb-8{
+    margin: 8px 0 8px 0;
 }
 
 
@@ -183,3 +192,71 @@ input[type="checkbox"]{
     color: red;
     cursor: pointer;
 }
+#food-description{
+    justify-content:center ;
+}
+
+#overview{
+    padding: 10px;
+    margin: 10px;
+    margin-right: 60px;
+    border-right: 1px solid rgb(226, 222, 222);
+}
+#overview>p:first-child{
+    color: red;
+}
+#overview>p{
+    margin: 10px;
+    text-align: end;
+    font-size: 17px;
+}
+#overview>p:hover{
+    color: red;
+    cursor: pointer;
+}
+#food-list{
+    width: 600px;
+    height: 1000px;
+    overflow-y: auto;
+}
+#food-list>h2{
+    padding: 10px;
+    font-size: 28px;
+}
+#food-list>p{
+    padding-left: 10px;
+    font-size: 13px;
+}
+.food-list-item{
+    padding: 30px 30px 30px 10px;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.food-list-item-button{
+    width: 90px;
+    height: 35px;
+    color: var(--food-list-button-color);
+    background-color: white;
+    border: 1px solid rgb(179, 175, 175);
+    font-size: 12px;
+}
+.food-list-item-button:hover{
+    color: var(--food-list-button-hover-color);
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
+}
+
+
+#cart-empty{
+    opacity: 0.5;
+    width: 400px;
+    margin-left: 30px;
+}
+#cart-empty>img{
+    margin-top: 50px;
+}
+
