@@ -192,21 +192,22 @@ input[type="checkbox"]{
 
 #overview{
     padding: 10px;
-    margin: 10px;
-    margin-right: 60px;
+    margin: 1.5rem 3rem 1.5rem 6rem;
     border-right: 1px solid rgb(226, 222, 222);
 }
-#overview>p:first-child{
-    color: red;
-}
+
 #overview>p{
-    margin: 10px;
+    margin: 1rem;
     text-align: end;
     font-size: 17px;
 }
-#overview>p:hover{
+#overview>p>a:hover{
     color: red;
     cursor: pointer;
+}
+#overview>p>a{
+    text-decoration: none;
+    color: black;
 }
 #food-list{
     width: 600px;
@@ -228,7 +229,6 @@ input[type="checkbox"]{
 .flex-space-between{
     display: flex;
     justify-content: space-between;
-    width: 90%;
 }
 .food-list-item-button{
     width: 90px;
@@ -243,14 +243,79 @@ input[type="checkbox"]{
     box-shadow: 0 0 5px grey;
     cursor: pointer;
 }
+.height-20{
+    height: 20px;
+}
 
 
-#cart-empty{
-    opacity: 0.5;
+#cart{
+    /* opacity: 0.5; */
     width: 400px;
-    margin-left: 30px;
+    margin-left: 90px;
+    width: 16%;
 }
-#cart-empty>img{
+#empty-cart{
     margin-top: 50px;
+    height: 220px;
 }
 
+
+
+
+
+
+/* cart styles */
+
+.cartItem{
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+.cartItem>div>img{
+    margin: 0.2rem;
+}
+
+.quantityControllers{
+    font-size: 0.8rem;
+    width: 50px;
+    border: 1px solid rgb(179, 175, 175);
+    padding: 0.3rem;
+    margin: 0 1rem;
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quantityControllers>span{
+    font-size: 1.1rem;
+    color: green;
+}
+
+.quantityControllers>span:hover{
+    cursor: pointer;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+#totalAmount{
+    padding: 1.5rem 0;
+}
+#totalAmount>h4{
+    font-size: large;
+}
+
+#checkout-button{
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+    background-color: #60b246;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.w-90{
+    width: 90%;
+}
