@@ -196,17 +196,19 @@ input[type="checkbox"]{
     margin-right: 60px;
     border-right: 1px solid rgb(226, 222, 222);
 }
-#overview>p:first-child{
-    color: red;
-}
+
 #overview>p{
     margin: 10px;
     text-align: end;
     font-size: 17px;
 }
-#overview>p:hover{
+#overview>p>a:hover{
     color: red;
     cursor: pointer;
+}
+#overview>p>a{
+    text-decoration: none;
+    color: black;
 }
 #food-list{
     width: 600px;
@@ -242,6 +244,9 @@ input[type="checkbox"]{
     color: var(--food-list-button-hover-color);
     box-shadow: 0 0 5px grey;
     cursor: pointer;
+}
+.height-20{
+    height: 20px;
 }
 
 

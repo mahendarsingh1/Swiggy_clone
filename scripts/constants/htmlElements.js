@@ -1,0 +1,1 @@
+export const foodListElement = document.getElementById('food-list');
