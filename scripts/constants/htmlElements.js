@@ -1,1 +1,4 @@
-export const foodListElement = document.getElementById('food-list');
+export const htmlElements = {
+    foodListElement : document.getElementById('food-list'),
+    cartElement : document.getElementById('cart')
+}
