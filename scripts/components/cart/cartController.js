@@ -9,20 +9,28 @@ export function CartController(){
 CartController.prototype.init = function(){
     
     let updateHandler = this.handleUpdateCartItem.bind(this);
-    this.cartView.init(updateHandler);
+    let checkoutHandler = this.handleCheckout.bind(this);
+    this.cartView.init(updateHandler, checkoutHandler);
     
+    this.getDataAndRender();
+}
+
+CartController.prototype.getDataAndRender = function(){
     let data = this.cartModel.getData();
     this.cartView.render(data);
 }
 
 CartController.prototype.handleAddToCart = function(item){
     this.cartModel.addToCart(item);
-    let data = this.cartModel.getData();
-    this.cartView.render(data);
+    this.getDataAndRender();
 }
 
 CartController.prototype.handleUpdateCartItem = function(id,type){
     this.cartModel.updateCartItem(id, type);
-    let data = this.cartModel.getData();
-    this.cartView.render(data);
+    this.getDataAndRender();
+}
+
+CartController.prototype.handleCheckout = function(){
+    this.cartModel.checkout();
+    this.getDataAndRender();
 }

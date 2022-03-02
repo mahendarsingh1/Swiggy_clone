@@ -11,7 +11,7 @@
             "id":2,
             "heading":"Matar Paneer",
             "amount":220,
-            "img":"../assets/images/Veg_symbol.svg",
+            "img":"../assets/images/nonVeg.svg",
             "description":"Wheat paratha is tosed with choped onion, capcicum, chilli, garlic and soya souce"
         },
         {
@@ -41,7 +41,7 @@
             "id":6,
             "heading":"Dhaniya Chicken Tikka",
             "amount":250,
-            "img":"../assets/images/Veg_symbol.svg",
+            "img":"../assets/images/nonVeg.svg",
             "description":"Wheat paratha is tosed with choped onion, capcicum, chilli, garlic and soya souce"
         }
     ],
@@ -64,7 +64,7 @@
             "id":9,
             "heading":"Kadai Paneer",
             "amount":230,
-            "img":"../assets/images/Veg_symbol.svg",
+            "img":"../assets/images/nonVeg.svg",
             "description":"Wheat paratha is tosed with choped onion, capcicum, chilli, garlic and soya souce"
         }
     ],
@@ -80,7 +80,7 @@
             "id":11,
             "heading":"Paneer Tikka Masala",
             "amount":294,
-            "img":"../assets/images/Veg_symbol.svg",
+            "img":"../assets/images/nonVeg.svg",
             "description":"Wheat paratha is tosed with choped onion, capcicum, chilli, garlic and soya souce"
         },
         {
@@ -96,7 +96,7 @@
             "id":13,
             "heading":"Kadai Paneer",
             "amount":229,
-            "img":"../assets/images/Veg_symbol.svg",
+            "img":"../assets/images/nonVeg.svg",
             "description":"Wheat paratha is tosed with choped onion, capcicum, chilli, garlic and soya souce"
         },
         {
@@ -126,7 +126,7 @@
             "id":17,
             "heading":"Mushroom Masala",
             "amount":280,
-            "img":"../assets/images/Veg_symbol.svg",
+            "img":"../assets/images/nonVeg.svg",
             "description":"Wheat paratha is tosed with choped onion, capcicum, chilli, garlic and soya souce"
         },
         {

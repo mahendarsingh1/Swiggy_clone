@@ -5,13 +5,17 @@ export function CartView(){
     this.cartElement = htmlElements.cartElement;
 }
 
-CartView.prototype.init = function(updateCartItems){
+CartView.prototype.init = function(updateCartItems, checkoutHandler){
+
     this.cartElement.addEventListener('click',function handleClick(event){
         let target = event.target;
         if(target.tagName==='SPAN'){
             let id = target.dataset.id;
             let type = target.dataset.type;
             updateCartItems(id,type);
+        }
+        else if(target.id == 'checkout-button'){
+            checkoutHandler();
         }
     })
 }

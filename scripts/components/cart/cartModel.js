@@ -13,7 +13,7 @@ CartModel.prototype.getData = function(){
 CartModel.prototype.addToCart = function(newItem){
     let sameItem = this.cartData.items.find((item)=>item.id===newItem.id)
     if(!sameItem) {
-        this.cartData.items.push({...newItem,quantity:1});
+        this.cartData.items.push({...newItem,quantity:1,description:undefined});
         this.cartData.totalQuantity += 1;
         this.cartData.totalAmount += newItem.amount;
     }  
@@ -35,4 +35,14 @@ CartModel.prototype.updateCartItem = function(id,type){
             this.cartData.items = this.cartData.items.filter(item => item.id!==Number(id))
         }
     }
+}
+
+CartModel.prototype.checkout = function(){
+    localStorage.setItem('cart', JSON.stringify(this.cartData));
+    alert('order succesfull');
+    this.cartData = {
+        items:[],
+        totalAmount:0,
+        totalQuantity:0
+    };
 }
