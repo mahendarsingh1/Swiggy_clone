@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-import { foodListElement } from '../../constants/htmlElements.js'
-import { foodList} from "./foodListHelper.js";
-
-var FoodListView = function(){}
-
-FoodListView.prototype.render = function(data){    
-    
-    foodListElement.innerHTML = foodList(data);
-=======
 import { htmlElements } from '../../constants/htmlElements.js'
 import { foodList} from "./foodListHelper.js";
 
@@ -26,7 +16,6 @@ FoodListView.prototype.init = function(handleAddToCart){
 
 FoodListView.prototype.render = function(data){    
     this.foodListElement.innerHTML = foodList(data);
->>>>>>> feature/cart
 }
 
 export default FoodListView;

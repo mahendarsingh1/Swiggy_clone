@@ -18,8 +18,6 @@ FoodListModel.prototype.getData = function(){
         return this.foodItems;
 }
 
-<<<<<<< HEAD
-=======
 FoodListModel.prototype.getDataById = function(id){
     for(let category in this.foodItems){
         let items = this.foodItems[category];
@@ -28,5 +26,4 @@ FoodListModel.prototype.getDataById = function(id){
     }
 }
 
->>>>>>> feature/cart
 export default FoodListModel;
