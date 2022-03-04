@@ -1,11 +1,20 @@
 function flexDiv(item){
     return `
+<<<<<<< HEAD
             <div class="flex-space-between">
                 <div>
                     <h3 class="margin-tb-8">${item.heading}</h3>
                     <p class="margin-tb-8">${item.amount}</p>
                 </div>
                 <button class="food-list-item-button">ADD</button>
+=======
+            <div class="flex-space-between w-90">
+                <div>
+                    <h3 class="margin-tb-8">${item.heading}</h3>
+                    <p class="margin-tb-8">₹${item.amount}</p>
+                </div>
+                <button class="food-list-item-button" data-id="${item.id}">ADD</button>
+>>>>>>> feature/cart
             </div>
         `;
 }
